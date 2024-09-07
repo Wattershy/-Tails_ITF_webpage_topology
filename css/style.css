@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#loading-container {  
+  position: fixed;  
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+  text-align: center;  
+  font-size: 30px; 
+}  
+/* 浅色主题 */  
+:root {  
+  --primary-color: #ffede8;  
+  --secondary-color: #ffffff;  
+  --bg-color: #eaeaea;  
+  --font-color: #333333;  
+  --heading-color: #2c3e50;  
+}  
+
+/* 深色主题 */  
+[data-theme="dark"] {  
+  --primary-color: #1c1c1c;  
+  --secondary-color: #777777;  
+  --bg-color: #424242;  
+  --font-color: #f4f4f4;  
+  --heading-color: #ecf0f1;  
+}  
+
+/* 应用这些变量到具体的样式 */  
+body {  
+  background-color: var(--bg-color);  
+  color: var(--font-color);  
+}  
+
+h1 {  
+  color: var(--heading-color);  
+}  
+
+.primary-color {  
+  background-color: var(--primary-color); 
+  color: var(--primary-color);  
+}  
+
+.secondary-color {  
+  background-color: var(--secondary-color);  
+}
+a {
+  color: #333;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  padding: 30px 50px;
+  box-shadow: 2px 3px 5px #ccc;
+  text-align: center;
+  padding-bottom: 0;
+  position: relative;
+  color: #333;
+}
+
+header img {
+  border-radius: 10px;
+  width: 80px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-weight: normal;
+  font-weight: 300;
+  
+}
+.btn1{
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  padding:10px 30px;
+}
+.tit {
+  text-align: center;
+  margin-bottom: 40px;
+}
+input{
+  width: 300px;
+  height: 30px;
+  padding-left: 30px;
+}
+.btn2{
+  height: 30px;
+}
+.heading-color{
+  margin-top: 40px;
+}
+.yk_box {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.yk_box .yk_bar {
+  width: 100%;
+}
+
+.yk_box .yk_bar .info {
+  width: 20%;
+  margin-bottom: 40px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #ccc;
+  color: #000;
+  float: left;
+  cursor: pointer;
+}
+
+.yk_box .yk_bar .active {
+  background: #b2735c;
+  color: #fff;
+}
+
+.yk_box .yk_content {
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.yk_box .yk_content h2 {
+  letter-spacing: 3px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.yk_box .yk_content img {
+  display: block;
+  margin: 20px auto;
+  width: 600px;
+}
+
+.author {
+  text-align: center;
+  line-height: 60px;
+}
+
+.yk_box .yk_content p {
+  line-height: 2;
+  text-indent: 2em;
+  margin-bottom: 20px;
+}
+
+a {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+  line-height: 2;
+}
+
+.foot {
+  width: 100%;
+  padding: 30px 0;
+  font-weight: 300;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
